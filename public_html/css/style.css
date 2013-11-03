@@ -1,0 +1,113 @@
+
+/******************************* STARS *******************************/
+
+#stars{
+    background-image: url('../imgs/stars.gif');
+    width:100%;
+    height: 4000px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/******************************* IMAGES *******************************/
+
+#earth-img{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#images, #earth-img{
+    z-index: 2;
+}
+
+#images{
+    position: fixed;
+    left: 50%;
+    top: 0;
+}
+
+#img-moon{
+    position: absolute;
+    top: 1550px;
+    padding-top: 30px;
+}
+
+#img-rocket{
+    position: absolute;
+    top: 3210px;
+    padding-top: 30px;
+}
+
+#img-saturn{
+    position: absolute;
+    top: 4850px;
+    padding-top: 30px;
+}
+
+/******************************* MENU *******************************/
+
+#menu{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 40px;
+    background: #333;
+}
+
+ul{  
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    margin: auto;
+}
+
+li a{
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #eee;
+    padding: 5px 20px;
+}
+
+/******************************* CONTENT *******************************/
+
+#content{
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+article{
+    width: 350px;
+    opacity: 0.8;
+    padding: 50px;
+    color: white;
+    position: relative;
+}
+
+article#earth{
+    width: 960px;
+}
+
+article#moon{
+    top: 2575px;
+    width: 350px;
+}
+
+article#flight{
+    top: 5575px;
+    width: 350px;
+}
+
+article#planets{
+    top: 8575px;
+    width: 350px;
+    padding-bottom: 800px;
+}
